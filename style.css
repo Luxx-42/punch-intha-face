@@ -1,0 +1,42 @@
+body, html {
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    z-index: 1000;
+    background-color: #343a40; /* Bootstrap dark color */
+    color: white;
+    padding: 20px;
+    overflow-y: auto; /* Enables scrolling within the sidebar if content overflows */
+    transition: transform 0.3s ease-in-out;
+}
+
+img {
+    width: 195px;
+}
+
+.content {
+    margin-left: 250px; /* Adjust based on the width of your sidebar */
+    padding: 20px;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.btn-bronze {
+    background-color: #CD7F32;
+}
+
+.btn-silver {
+    color: #fff;
+    background-color: #C0C0C0;
+    border: 1px solid #C0C0C0;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar bg-black">
+        <a class="navbar-brand ps-4" href="#"><img src="static/home-pics/btlb-logo.webp" class="ps-3" alt=""></a>
+        <nav class="nav flex-column nav-justified position-absolute top-50 start-50 translate-middle">
+            <a class="nav-link" href="index.html">
+                <button class="btn text-white btn-outline-danger text-decoration-none">Home</button>
+            </a>
+            <a class="nav-link" href="about.html">
+                <button class="btn text-white btn-outline-danger text-decoration-none">About</button>
+            </a>
+            <a class="nav-link" href="memberships.html">
+                <button class="btn text-white btn-outline-danger text-decoration-none active" aria-current="true">Memberships</button>
+            </a>
+            <a class="nav-link" href="sign-up.html">
+                <button class="btn text-white btn-outline-danger text-decoration-none">Start Battling</button>
+            </a>
+            <a class="nav-link" href="contact.html">
+                <button class="btn text-white btn-outline-danger text-decoration-none">Contact</button>
+            </a>
+        </nav>
+    </div>
+    <div class="content bg-black text-white text-center">
+        <div class="container-fluid m-2 pb-5">
+            <h1>Memberships</h1>
+        </div>
+        <div class="flex-row col-md-4 border-bronze btn btn-outline-danger text-white text-decoration-none mb-3">
+            <div class="text-white justify-content-center pt-4">
+                <h2 class="pb-4">Bronze Plan - "Starter Pack"</h2>
+                <div class="pb-3">Price: $59/month</div>
+                <div class="pb-3"><u>Features:</u></div>
+                <ul class="text-start pt-5 pb-4">
+                    <li>Access to gym facilities during standard hours</li>
+                    <li>4 group classes per month</li>
+                    <li>Monthly fitness assessment</li>
+                    <li>Access to locker rooms and showers</li>
+                    <li>Best for: Beginners looking to get started in boxing or those seeking a basic fitness regime.</li>
+                </ul>
+                <div class="container-fluid d-flex flex-column align-items-center pt-2">
+                    <a href="sign-up.html">
+                        <button class="btn btn-bronze text-white text-decoration-none my-4">I Want The Bronze Plan</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="flex-row col-md-4 border-white btn text-white btn-outline-danger text-decoration-none mb-3">
+            <div class="btn text-white justify-content-center pt-4">
+                <h2 class="pb-3">Silver Plan - "Fighter's Choice"</h2>
+                <div class="pb-3">Price: $99/month</div>
+                <div class="pb-3"><u>Features:</u></div>
+                <ul class="text-start">
+                    <li>All benefits of the Bronze Plan</li>
+                    <li>Unlimited group classes</li>
+                    <li>Weekly personal training sessions</li>
+                    <li>Nutrition planning and monitoring</li>
+                    <li>Free entry to gym-sponsored competitions</li>
+                    <li>20% discount on merchandise and special events</li>
+                    <li>Dedicated locker</li>
+                    <li>Best for: Dedicated boxers and athletes focused on competitive boxing or peak physical conditioning.</li>
+                </ul>
+                <div class="container-fluid d-flex flex-column align-items-center pt-2">
+                    <a href="sign-up.html" class="text-decoration-none">
+                        <button class="btn btn-silver btn-3 text-black text-decoration-none my-4">I Want The Silver Plan</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid justify-content-center d-flex gap-3 pt-5 flex-wrap">
+            <div class="flex-row col-6 border-warning btn text-white btn-outline-danger text-decoration-none mb-3 mb-md-0">
+                <div class="btn text-white justify-content-center pt-4">
+                    <h2 class="pb-3">Gold Plan - "Champion's League"</h2>
+                    <div class="pb-3">Price: $159/month</div>
+                    <div class="pb-3"><u>Features:</u></div>
+                    <ul class="text-start">
+                        <li>All benefits of the Silver Plan</li>
+                        <li>Unlimited group classes</li>
+                        <li>Weekly personal training sessions</li>
+                        <li>Nutrition planning and monitoring</li>
+                        <li>Free entry to gym-sponsored competitions</li>
+                        <li>20% discount on merchandise and special events</li>
+                        <li>Dedicated locker</li>
+                        <li>Best for: Dedicated boxers and athletes focused on competitive boxing or peak physical conditioning.</li>
+                    </ul>
+                    <div class="container-fluid d-flex flex-column align-items-center pt-2">
+                        <a href="sign-up.html">
+                            <button class="btn text-black btn-warning text-decoration-none my-4">I Want The Gold Plan</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black text-center bg-black mt-5">
+        <div class="d-flex justify-content-center gap-3">
+            <div class="d-flex flex-row justify-content-center align-items-center col-sm-2 pt-4 pb-3 gap-5 text-center bg-black">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Include Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
